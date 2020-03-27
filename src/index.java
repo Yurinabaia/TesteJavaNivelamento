@@ -13,10 +13,10 @@ public class index
 	{
 		@SuppressWarnings("resource")
 		Scanner entrada = new Scanner(System.in);
-		System.out.print("1 - Som emitido é um grasnido\n");
-		System.out.print("2 - Som emitido é um cacarejo\n");
-		System.out.print("3 - Som emitido é o mugido.\n");
-		System.out.print("4 - Som emitido é um farfalho.\n");
+		System.out.print("1 - Som emitido é um grasnido --->Pato\n");
+		System.out.print("2 - Som emitido é um cacarejo --->Galinha\n");
+		System.out.print("3 - Som emitido é o mugido. --->Vaca\n");
+		System.out.print("4 - Som emitido é um farfalho.--->Morcego\n");
 		int Valor = Integer.parseInt(entrada.next());
 		return Valor;
 	}
@@ -32,11 +32,11 @@ public class index
 		System.out.print("Caso escolha uma cor que o animal não possuir o resultado "
 				+ "será o animal não encontrado\n\n\n");
 
-		System.out.print("1 - A cor do pelo/pena é verdes;\n");
-		System.out.print("2 - A cor do pelo/pena é azul;\n");
-		System.out.print("3 - A cor do pelo/pena é marrom;\n");
-		System.out.print("4 - A cor do pelo/pena é branco;\n");
-		System.out.print("5 - A cor do pelo/pena é preto;\n");
+		System.out.print("1 - A cor do pelo/pena é verdes --->Patos;\n");
+		System.out.print("2 - A cor do pelo/pena é azul ---->Patos;\n");
+		System.out.print("3 - A cor do pelo/pena é marrom ---->Morcego ou Galinha;\n");
+		System.out.print("4 - A cor do pelo/pena é branco ---->Galinha ou Vaca ;\n");
+		System.out.print("5 - A cor do pelo/pena é preto; ---->Galinha ou Vaca\n");
 		int Valor = Integer.parseInt(entrada.next());
 		if(Valor ==1) Cor = "verdes";
 		else if(Valor ==2) Cor ="azul";
